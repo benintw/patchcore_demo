@@ -1,0 +1,3 @@
+import torch
+
+DEVICE = "mps" if torch.backends.mps.is_built() else "cpu"
